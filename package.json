@@ -1,7 +1,7 @@
 {
   "name": "jjun-blog",
   "version": "0.1.0",
-  "homepage": "http://jjun.github.io/react-github-pages",
+  "homepage": "http://leeyw1006.github.io/jjun-react",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.1.4",
