@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jjun-react/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/jjun-react/static/js/main.172115ac.chunk.js",
-    "main.js.map": "/jjun-react/static/js/main.172115ac.chunk.js.map",
+    "main.js": "/jjun-react/static/js/main.ccc35604.chunk.js",
+    "main.js.map": "/jjun-react/static/js/main.ccc35604.chunk.js.map",
     "runtime-main.js": "/jjun-react/static/js/runtime-main.62ba29cd.js",
     "runtime-main.js.map": "/jjun-react/static/js/runtime-main.62ba29cd.js.map",
     "static/js/2.402e673d.chunk.js": "/jjun-react/static/js/2.402e673d.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.7f2fc992.chunk.js.map": "/jjun-react/static/js/3.7f2fc992.chunk.js.map",
     "index.html": "/jjun-react/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/jjun-react/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.402e673d.chunk.js.LICENSE.txt": "/jjun-react/static/js/2.402e673d.chunk.js.LICENSE.txt"
+    "static/js/2.402e673d.chunk.js.LICENSE.txt": "/jjun-react/static/js/2.402e673d.chunk.js.LICENSE.txt",
+    "static/media/리자몽.b3ddeb17.jpg": "/jjun-react/static/media/리자몽.b3ddeb17.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62ba29cd.js",
     "static/js/2.402e673d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.172115ac.chunk.js"
+    "static/js/main.ccc35604.chunk.js"
   ]
 }
