@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/jjun-react/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/jjun-react/static/js/main.ccc35604.chunk.js",
-    "main.js.map": "/jjun-react/static/js/main.ccc35604.chunk.js.map",
-    "runtime-main.js": "/jjun-react/static/js/runtime-main.62ba29cd.js",
-    "runtime-main.js.map": "/jjun-react/static/js/runtime-main.62ba29cd.js.map",
-    "static/js/2.402e673d.chunk.js": "/jjun-react/static/js/2.402e673d.chunk.js",
-    "static/js/2.402e673d.chunk.js.map": "/jjun-react/static/js/2.402e673d.chunk.js.map",
-    "static/js/3.7f2fc992.chunk.js": "/jjun-react/static/js/3.7f2fc992.chunk.js",
-    "static/js/3.7f2fc992.chunk.js.map": "/jjun-react/static/js/3.7f2fc992.chunk.js.map",
-    "index.html": "/jjun-react/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/jjun-react/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.402e673d.chunk.js.LICENSE.txt": "/jjun-react/static/js/2.402e673d.chunk.js.LICENSE.txt",
-    "static/media/리자몽.b3ddeb17.jpg": "/jjun-react/static/media/리자몽.b3ddeb17.jpg"
+    "main.css": "/jjun-blog/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/jjun-blog/static/js/main.ccc35604.chunk.js",
+    "main.js.map": "/jjun-blog/static/js/main.ccc35604.chunk.js.map",
+    "runtime-main.js": "/jjun-blog/static/js/runtime-main.8d080bde.js",
+    "runtime-main.js.map": "/jjun-blog/static/js/runtime-main.8d080bde.js.map",
+    "static/js/2.402e673d.chunk.js": "/jjun-blog/static/js/2.402e673d.chunk.js",
+    "static/js/2.402e673d.chunk.js.map": "/jjun-blog/static/js/2.402e673d.chunk.js.map",
+    "static/js/3.7f2fc992.chunk.js": "/jjun-blog/static/js/3.7f2fc992.chunk.js",
+    "static/js/3.7f2fc992.chunk.js.map": "/jjun-blog/static/js/3.7f2fc992.chunk.js.map",
+    "index.html": "/jjun-blog/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/jjun-blog/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.402e673d.chunk.js.LICENSE.txt": "/jjun-blog/static/js/2.402e673d.chunk.js.LICENSE.txt",
+    "static/media/리자몽.b3ddeb17.jpg": "/jjun-blog/static/media/리자몽.b3ddeb17.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.62ba29cd.js",
+    "static/js/runtime-main.8d080bde.js",
     "static/js/2.402e673d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.ccc35604.chunk.js"
