@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jjun-blog/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/jjun-blog/static/js/main.ccc35604.chunk.js",
-    "main.js.map": "/jjun-blog/static/js/main.ccc35604.chunk.js.map",
+    "main.css": "/jjun-blog/static/css/main.4a5c6e7f.chunk.css",
+    "main.js": "/jjun-blog/static/js/main.cc154434.chunk.js",
+    "main.js.map": "/jjun-blog/static/js/main.cc154434.chunk.js.map",
     "runtime-main.js": "/jjun-blog/static/js/runtime-main.8d080bde.js",
     "runtime-main.js.map": "/jjun-blog/static/js/runtime-main.8d080bde.js.map",
     "static/js/2.402e673d.chunk.js": "/jjun-blog/static/js/2.402e673d.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.7f2fc992.chunk.js": "/jjun-blog/static/js/3.7f2fc992.chunk.js",
     "static/js/3.7f2fc992.chunk.js.map": "/jjun-blog/static/js/3.7f2fc992.chunk.js.map",
     "index.html": "/jjun-blog/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/jjun-blog/static/css/main.8c8b27cf.chunk.css.map",
+    "static/css/main.4a5c6e7f.chunk.css.map": "/jjun-blog/static/css/main.4a5c6e7f.chunk.css.map",
     "static/js/2.402e673d.chunk.js.LICENSE.txt": "/jjun-blog/static/js/2.402e673d.chunk.js.LICENSE.txt",
     "static/media/리자몽.b3ddeb17.jpg": "/jjun-blog/static/media/리자몽.b3ddeb17.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d080bde.js",
     "static/js/2.402e673d.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.ccc35604.chunk.js"
+    "static/css/main.4a5c6e7f.chunk.css",
+    "static/js/main.cc154434.chunk.js"
   ]
 }
