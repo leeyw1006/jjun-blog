@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22326404-7993-4513-98b9-772b74a23f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlogDetail/BlogDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +45,7 @@
       <updated>1610447527633</updated>
       <workItem from="1610447529127" duration="3236000" />
       <workItem from="1610600284722" duration="308000" />
-      <workItem from="1611049641549" duration="3137000" />
+      <workItem from="1611049641549" duration="4307000" />
     </task>
     <servers />
   </component>
