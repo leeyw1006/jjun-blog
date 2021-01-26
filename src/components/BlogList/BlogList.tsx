@@ -14,13 +14,13 @@ function whenClicked(){
   alert("somebody click");
 }
 
-export const BlogDetail = (props: buttonProps) => {
+export const BlogList = (props: buttonProps) => {
   return (
     <div style={props.style? props.style : {}}>
       <div>
         <img src={logo} className="App-logo" alt="리자몽" />
 
-        <div>블로그 디테일페이지</div>
+        <div>소개 페이지 입니다.</div>
       </div>
       <Button label={'클릭하세요'} clickHandler={whenClicked}></Button>
     </div>
