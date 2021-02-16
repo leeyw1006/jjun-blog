@@ -20,7 +20,7 @@ export const BlogDetail = (props: buttonProps) => {
       <div>
         <img src={logo} className="App-logo" alt="리자몽" />
 
-        <div>블로그 디테일페이지</div>
+        <div>상세 페이지 입니다.</div>
       </div>
       <Button label={'클릭하세요'} clickHandler={whenClicked}></Button>
     </div>

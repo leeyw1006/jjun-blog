@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="22326404-7993-4513-98b9-772b74a23f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BlogInfo/BlogInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlogList/BlogList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideNavBar/SideNavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlogDetail/BlogDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogDetail/BlogDetail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogInfo/BlogInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogInfo/BlogInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogList/BlogList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogList/BlogList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideNavBar/SideNavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNavBar/SideNavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,10 @@
       <workItem from="1610600284722" duration="308000" />
       <workItem from="1611049641549" duration="4894000" />
       <workItem from="1611218206264" duration="704000" />
-      <workItem from="1611654927945" duration="3813000" />
+      <workItem from="1611654927945" duration="4015000" />
+      <workItem from="1611714800706" duration="1548000" />
+      <workItem from="1612859287295" duration="1805000" />
+      <workItem from="1613469594314" duration="2543000" />
     </task>
     <servers />
   </component>
@@ -80,7 +88,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/BlogDetail/BlogDetail.tsx</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {BlogDetail} from "../BlogDetail/BlogDetail";
 import {BlogInfo} from "../BlogInfo/BlogInfo";
 import {BlogList} from "../BlogList/BlogList";
+import {Route, Link,Switch} from 'react-router-dom';
 
 
 export interface SideNavBarProps {
@@ -9,13 +10,24 @@ export interface SideNavBarProps {
 }
 
 export const SideNavBar = (props: SideNavBarProps) => {
-  let items = ["상세페이지", "게시글 페이지", "소개 페이지"]
-  const [size, setSize] = useState(0);
+  let items = [{name:"소개 페이지",id:1,label:'BlogInfo' , path:'/info'},{name:"상세 페이지",id:2,label:'BlogDetail', path:'/detail'},{name:"게시글 페이지",id:3,label:'BlogList',path:'/page'}]
+  const [menu, setMenu] = useState('BlogInfo');
 
   function showItems() {
     return items.map((item,index) => {
-      return <div style={{padding:"30px"}} onClick={() =>setSize(index)}>{item}</div>
+      return <div style={{padding:"30px"}} key={item.id} onClick={() =>setMenu(item.label)}><Link to={item.path}>{item.name}</Link></div>
     })
+  }
+
+  function renderSwitch(menu: string) {
+    switch (menu) {
+      case 'BlogInfo':
+        return <Route path="/info"> <BlogInfo/> </Route>;
+      case 'BlogList':
+        return  <Route path="/detail"><BlogList/> </Route>;
+      case 'BlogDetail':
+        return  <Route path="/page"><BlogDetail/></Route>;
+    }
   }
 
   return (
@@ -36,9 +48,11 @@ export const SideNavBar = (props: SideNavBarProps) => {
       </div>
       <div className={"side-nav-bar-children"}>
         {props.children}
-        <BlogInfo style={size==0 ? {"display":"block"} : {"display":"none"}} />
-        <BlogList style={size==1 ? {"display":"block"} : {"display":"none"}} />
-        <BlogDetail style={size==2 ? {"display":"block"} : {"display":"none"}} />
+        <Switch>
+          <Route path="/info"> <BlogInfo/> </Route>;
+          <Route path="/detail"><BlogDetail/> </Route>;
+          <Route path="/page"><BlogList/></Route>;
+        </Switch>
 
       </div>
     </div>
