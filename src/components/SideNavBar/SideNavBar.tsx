@@ -1,33 +1,25 @@
-import React, {useState} from 'react';
-import {BlogDetail} from "../BlogDetail/BlogDetail";
-import {BlogInfo} from "../BlogInfo/BlogInfo";
-import {BlogList} from "../BlogList/BlogList";
-import {Route, Link,Switch} from 'react-router-dom';
+import React from 'react';
+import {Link, Switch, Route} from 'react-router-dom';
+
+
+export interface Menu {
+  path: string,
+  exact?: boolean,
+  label: string,
+  component: () => JSX.Element
+  hidden?: boolean,
+}
 
 
 export interface SideNavBarProps {
+  menus: Menu[]
   children: JSX.Element | JSX.Element[]
 }
 
 export const SideNavBar = (props: SideNavBarProps) => {
-  let items = [{name:"소개 페이지",id:1,label:'BlogInfo' , path:'/info'},{name:"상세 페이지",id:2,label:'BlogDetail', path:'/detail'},{name:"게시글 페이지",id:3,label:'BlogList',path:'/page'}]
-  const [menu, setMenu] = useState('BlogInfo');
 
   function showItems() {
-    return items.map((item,index) => {
-      return <div style={{padding:"30px"}} key={item.id} onClick={() =>setMenu(item.label)}><Link to={item.path}>{item.name}</Link></div>
-    })
-  }
-
-  function renderSwitch(menu: string) {
-    switch (menu) {
-      case 'BlogInfo':
-        return <Route path="/info"> <BlogInfo/> </Route>;
-      case 'BlogList':
-        return  <Route path="/detail"><BlogList/> </Route>;
-      case 'BlogDetail':
-        return  <Route path="/page"><BlogDetail/></Route>;
-    }
+    return props.menus.map((menu,index) => <div style={{padding:"30px"}} key={menu.path}><Link to={menu.path}>{menu.label}</Link></div>)
   }
 
   return (
@@ -49,11 +41,15 @@ export const SideNavBar = (props: SideNavBarProps) => {
       <div className={"side-nav-bar-children"}>
         {props.children}
         <Switch>
-          <Route path="/info"> <BlogInfo/> </Route>;
-          <Route path="/detail"><BlogDetail/> </Route>;
-          <Route path="/page"><BlogList/></Route>;
+          {props.menus.map((route) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              exact={route.exact}
+              children={<route.component />}
+            />
+          ))}
         </Switch>
-
       </div>
     </div>
   );

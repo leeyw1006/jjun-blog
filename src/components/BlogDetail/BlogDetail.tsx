@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "../button/button"
-import logo from '../../리자몽.jpg';
+import logo from '../../팬텀.jpeg';
 
 
 export interface buttonProps {
@@ -18,9 +18,9 @@ export const BlogDetail = (props: buttonProps) => {
   return (
     <div style={props.style? props.style : {}}>
       <div>
-        <img src={logo} className="App-logo" alt="리자몽" />
+        <img src={logo} className="App-logo" alt="팬텀" />
 
-        <div>상세 페이지 입니다.</div>
+        <div>글쓰기 페이지 입니다.</div>
       </div>
       <Button label={'클릭하세요'} clickHandler={whenClicked}></Button>
     </div>

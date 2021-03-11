@@ -8,17 +8,15 @@ export interface HeaderProps {
 export const Header = (props: HeaderProps) => {
   return (
     <div className="Header">
-      <div className={"jjun-header"}
+      <div className="jjun-header"
            style={{
-             backgroundColor:'lightblue',
+             backgroundColor:'rgba(211, 49, 99, 1)',
              height:"50px",
              fontSize:"30px"
            }}>
-        this is bigin
+        JJUN 개발 블로그
       </div>
-      <div className={"jjun-header"}>
-        {props.content}
-      </div>
+      {props.content}
     </div>
   );
 }
